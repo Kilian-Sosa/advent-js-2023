@@ -1,4 +1,5 @@
-## 🎄 [25 days, 25 challenges](https://adventjs.dev/es) 🎄
+## 🎄 [AdventJS](https://adventjs.dev/es) 25 days, 25 challenges 🎄
+![adventJS_image](https://github.com/Kilian-Sosa/advent-js-2023/assets/85161810/e2d2144a-c55b-4d89-b2d2-416ae4aae63a)
 
 |                                               Art                                                | Day |                                  Challenge                                   | Difficulty |                  Code                  | Score |
 | :----------------------------------------------------------------------------------------------: | :-: | :--------------------------------------------------------------------------: | :--------: | :------------------------------------: | :---: |

@@ -1,4 +1,4 @@
-# Challenge 1
+# Challenge 2
 
 In Santa's workshop, the elves have a list of gifts they want to make and a limited set of materials.
 
@@ -7,30 +7,34 @@ The gifts are strings, and the materials are characters. Your task is to write a
 A gift can be made if we have all the necessary materials to manufacture it.
 
 ```ts
-const gifts1 = ["train", "bear", "ball"];
-const materials1 = "tronesa";
+const gifts = ["tren", "oso", "pelota"];
+const materials = "tronesa";
 
-manufacture(gifts1, materials1); // ["train", "bear"]
+manufacture(gifts, materials); // ["tren", "oso"]
 
-const gifts2 = ["game", "puzzle"];
-const materials2 = "jlepuz";
+const gifts = ["juego", "puzzle"];
+const materials = "jlepuz";
 
-manufacture(gifts2, materials2); // ["puzzle"]
+manufacture(gifts, materials); // ["puzzle"]
 
-const gifts3 = ["book", "ps5"];
-const materials3 = "psli";
+const gifts = ["libro", "ps5"];
+const materials = "psli";
 
-manufacture(gifts3, materials3); // []
+manufacture(gifts, materials); // []
 ```
 
 # Solution
 
 ## JavaScript
 
-### ~ points
+### 270 points
 
 ```js
-
+function manufacture(gifts, materials) {
+  return gifts.filter((gift) => {
+    return gift.split("").every((char) => materials.includes(char));
+  });
+}
 ```
 
 ## TypeScript

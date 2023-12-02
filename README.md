@@ -2,8 +2,8 @@
 
 | Art                                                                                                | Day | Challenge                                                                                      | Difficulty  | Code                         | Score  |
 | :-----------------------------------------------------------------:                                | :-: | :--------------------------------------------------------------------------------------------: | :---------: | :--------------------------: | :----: |
-| <img src="https://adventjs.dev/challenges-2023/1.png" width="50" style="object-fit: contain;" />   |  1  | [First Gift Repeated!](https://adventjs.dev/es/challenges/2023/1)       | 🟢  Fácil   | ~~~~~ | ~~~~~    |
-|    |  2  | ~~~~~       |        | ~~~~~ | ~~~~~    |
+| <img src="https://adventjs.dev/challenges-2023/1.png" width="50" style="object-fit: contain;" />   |  1  | 🎁 [First Gift Repeated!](https://adventjs.dev/es/challenges/2023/1)                           | 🟢  Easy   | [See](challenges/challenge1/README.md) | 160    |
+| <img src="https://adventjs.dev/challenges-2023/2.png" width="50" style="object-fit: contain;" />   |  2  | 🏭 [We set the factory in motion](https://adventjs.dev/es/challenges/2023/2)                   | 🟢  Easy   | ~~~~~ | ~~~~~    |
 |    |  3  | ~~~~~       |        | ~~~~~ | ~~~~~    |
 |    |  4  | ~~~~~       |        | ~~~~~ | ~~~~~    |
 |    |  5  | ~~~~~       |        | ~~~~~ | ~~~~~    |

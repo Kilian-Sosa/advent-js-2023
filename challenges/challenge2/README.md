@@ -39,8 +39,12 @@ function manufacture(gifts, materials) {
 
 ## TypeScript
 
-### ~ points
+### 270 points
 
 ```ts
-
+function manufacture(gifts: string[], materials: string): string[] {
+  return gifts.filter((gift) =>
+    [...gift].every((char) => materials.includes(char))
+  );
+}
 ```

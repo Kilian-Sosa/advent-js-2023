@@ -31,32 +31,22 @@ Note! The elves say this is a Google technical test.
 
 ## JavaScript
 
-### 160 points
+### 330 points
 
 ```js
 function findFirstRepeated(gifts) {
-  const seenNumbers = new Set();
-
-  for (const currentId of gifts) {
-    if (seenNumbers.has(currentId)) return currentId;
-    seenNumbers.add(currentId);
-  }
-  return -1;
+  const repeated = gifts.filter((gift, i) => gifts.indexOf(gift) !== i);
+  return repeated.length > 0 ? repeated[0] : -1;
 }
 ```
 
 ## TypeScript
 
-### 160 points
+### 330 points
 
 ```ts
-function findFirstRepeated(gifts) {
-  const seenNumbers = new Set();
-
-  for (const currentId of gifts) {
-    if (seenNumbers.has(currentId)) return currentId;
-    seenNumbers.add(currentId);
-  }
-  return -1;
+function findFirstRepeated(gifts: number[]): number {
+  const repeated = gifts.filter((gift, i) => gifts.indexOf(gift) !== i);
+  return repeated.length > 0 ? repeated[0] : -1;
 }
 ```

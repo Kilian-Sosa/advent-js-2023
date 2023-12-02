@@ -27,24 +27,30 @@ manufacture(gifts, materials); // []
 
 ## JavaScript
 
-### 270 points
+### 280 points
 
 ```js
 function manufacture(gifts, materials) {
+  const materialArray = materials.split("");
+
   return gifts.filter((gift) => {
-    return gift.split("").every((char) => materials.includes(char));
+    const uniqueCharacters = [...new Set([...gift, ...materialArray])];
+    return uniqueCharacters.length === materialArray.length;
   });
 }
 ```
 
 ## TypeScript
 
-### 270 points
+### 280 points
 
 ```ts
 function manufacture(gifts: string[], materials: string): string[] {
-  return gifts.filter((gift) =>
-    [...gift].every((char) => materials.includes(char))
-  );
+  const materialArray = materials.split("");
+
+  return gifts.filter((gift) => {
+    const uniqueCharacters = [...new Set([...gift, ...materialArray])];
+    return uniqueCharacters.length === materialArray.length;
+  });
 }
 ```

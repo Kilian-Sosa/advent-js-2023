@@ -35,32 +35,26 @@ The original sequence can be empty.
 
 ## JavaScript
 
-### 350 points
+### 370 points
 
 ```js
 function findNaughtyStep(original, modified) {
-  const minLength = Math.min(original.length, modified.length);
-
-  for (let i = 0; i < minLength; i++)
-    if (original[i] !== modified[i])
-      return modified.length > original.length ? modified[i] : original[i];
-  return modified.length > original.length ? modified[minLength] : "";
+  const [shorterText, longerText] = [original, modified].sort(
+    (a, b) => a.length - b.length
+  );
+  return [...longerText].find((x, i) => shorterText[i] != x) ?? "";
 }
 ```
 
 ## TypeScript
 
-### 300 points
+### 370 points
 
 ```ts
 function findNaughtyStep(original: string, modified: string): string {
-  const minLength = Math.min(original.length, modified.length);
-
-  for (let i = 0; i < minLength; i++) {
-    if (original[i] !== modified[i]) {
-      return modified.length > original.length ? modified[i] : original[i];
-    }
-  }
-  return modified.length > original.length ? modified[minLength] : "";
+  const [shorterText, longerText] = [original, modified].sort(
+    (a, b) => a.length - b.length
+  );
+  return [...longerText].find((x, i) => shorterText[i] != x) ?? "";
 }
 ```

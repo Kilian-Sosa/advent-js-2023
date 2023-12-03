@@ -22,7 +22,8 @@ const modified = "abcde";
 
 findNaughtyStep(original, modified); // ''
 ```
-***To take into account***:
+
+**_To take into account_**:
 
 There will always be one step of difference or none.
 
@@ -49,8 +50,17 @@ function findNaughtyStep(original, modified) {
 
 ## TypeScript
 
-### ~ points
+### 300 points
 
 ```ts
+function findNaughtyStep(original: string, modified: string): string {
+  const minLength = Math.min(original.length, modified.length);
 
+  for (let i = 0; i < minLength; i++) {
+    if (original[i] !== modified[i]) {
+      return modified.length > original.length ? modified[i] : original[i];
+    }
+  }
+  return modified.length > original.length ? modified[minLength] : "";
+}
 ```

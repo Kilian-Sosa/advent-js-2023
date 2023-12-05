@@ -1,8 +1,8 @@
 # Challenge 2
 
-In Santa's workshop, the elves have a list of gifts they want to make and a limited set of materials.
+In Santa's workshop, the elves have a **list of gifts** they want to make and a limited set of materials.
 
-The gifts are strings, and the materials are characters. Your task is to write a function that, given a list of gifts and the available materials, returns a list of the gifts that can be manufactured.
+The gifts are strings, and the materials are characters. Your task is to write a function that, given a list of gifts and the available materials, returns a **list of the gifts that can be manufactured**.
 
 A gift can be made if we have all the necessary materials to manufacture it.
 

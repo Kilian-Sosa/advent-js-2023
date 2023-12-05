@@ -31,6 +31,15 @@ console.log(c); // santaclaus
 
 # Solution
 
+> [!IMPORTANT]
+> This regex is designed to find and capture text enclosed within parentheses. The captured content is everything between the opening "(" and closing ")" parentheses. The g flag ensures that all matches in the input string are found, not just the first one.
+> ```js
+> /\(  (  [^()]+  )  \)/g
+>      ^          ^
+>  ```
+> - The first match captures the text within the outermost parentheses.
+> - The second match captures the text within the innermost parentheses, taking into account nested structures.
+
 ## JavaScript
 
 ### 280 points

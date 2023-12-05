@@ -26,7 +26,7 @@ console.log(firstRepeatedId3); // 5
 ```
 
 > [!NOTE]
-> *_The elves say this is a Google technical test._*
+> _*The elves say this is a Google technical test.*_
 
 # Solution
 

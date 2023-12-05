@@ -22,12 +22,13 @@ const modified = "abcde";
 
 findNaughtyStep(original, modified); // ''
 ```
+
 > [!WARNING]
 > **_To take into account_**:
 > There will always be one step of difference or none.
-> 
+>
 > The modification can occur anywhere in the sequence.
-> 
+>
 > The original sequence can be empty.
 
 # Solution

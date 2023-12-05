@@ -33,15 +33,20 @@ console.log(c); // santaclaus
 
 ## JavaScript
 
-### ~ points
+### 280 points
 
 ```js
+function decode(message) {
+  const regex = /\(([^()]+)\)/g;
+  const replacer = (_, group) => [...group].reverse().join("");
 
+  return message.replace(regex, replacer).replace(regex, replacer);
+}
 ```
 
 ## TypeScript
 
-### ~ points
+### 280 points
 
 ```ts
 

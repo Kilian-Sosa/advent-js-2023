@@ -25,7 +25,8 @@ const firstRepeatedId3 = findFirstRepeated(giftIds3);
 console.log(firstRepeatedId3); // 5
 ```
 
-Note! The elves say this is a Google technical test.
+> [!NOTE]
+> *_The elves say this is a Google technical test._*
 
 # Solution
 

@@ -1,10 +1,10 @@
 # Challenge 3
 
-In Santa's workshop, a mischievous elf has been playing in the gift manufacturing line, adding or removing an unplanned step.
+In Santa's workshop, **a mischievous elf** has been playing in the gift manufacturing line, adding or removing an unplanned step.
 
 You have the original sequence of steps in the manufacturing process and the modified sequence that may include an extra step or be missing a step.
 
-Your task is to write a function that identifies and returns the first extra step that has been added or removed in the manufacturing line. If there is no difference between the sequences, return an empty string.
+Your task is **to write a function that identifies and returns the first extra step that has been added or removed in the manufacturing line**. If there is no difference between the sequences, return an empty string.
 
 ```ts
 const original = "abcd";
@@ -29,7 +29,7 @@ findNaughtyStep(original, modified); // ''
 >
 > The modification can occur anywhere in the sequence.
 >
-> The original sequence can be empty.
+> The _original_ sequence can be empty.
 
 # Solution
 

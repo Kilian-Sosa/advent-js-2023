@@ -1,10 +1,10 @@
 # Challenge 4
 
-In Santa's workshop 🎅, some Christmas messages have been written in a peculiar way: the letters inside the parentheses must be read in reverse.
+In Santa's workshop 🎅, some Christmas messages have been written in a peculiar way: **the letters inside the parentheses must be read in reverse**.
 
-Santa needs these messages to be correctly formatted. Your task is to write a function that takes a string of text and reverses the characters within each pair of parentheses, removing the parentheses in the final message.
+**Santa needs these messages to be correctly formatted**. Your task is to write a function that takes a string of text and reverses the characters within each pair of parentheses, removing the parentheses in the final message.
 
-However, keep in mind that nested parentheses may exist, so you must reverse the characters in the correct order.
+However, keep in mind that **nested parentheses may exist**, so you must reverse the characters in the correct order.
 
 ```ts
 const a = decode("hola (odnum)");
@@ -23,11 +23,11 @@ console.log(c); // santaclaus
 
 > [!WARNING]
 > **_To take into account_**:
-> The input strings will always be well-formed with properly matching parentheses; you don't need to validate them.
+> - The input strings will always be well-formed with properly matching parentheses; you don't need to validate them.
 >
-> There should be no parentheses left in the final message.
+> - There should be no parentheses left in the final message.
 >
-> The maximum level of nesting is 2.
+> - The maximum level of nesting is 2.
 
 # Solution
 

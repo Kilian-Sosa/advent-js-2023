@@ -1,4 +1,4 @@
-# Challenge 7
+# Challenge #7: 📦 The 3D boxes
 
 Santa is experimenting with new gift designs and **he needs your help to visualize them in 3D**.
 

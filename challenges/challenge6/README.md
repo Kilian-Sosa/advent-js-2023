@@ -1,4 +1,4 @@
-# Challenge 6
+# Challenge #6: 🦌 The reindeer on trial
 
 The elves are cataloging Santa's reindeer 🦌 based on the distance they can travel.
 

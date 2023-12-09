@@ -1,4 +1,4 @@
-# Challenge 1
+# Challenge #1: 🎁 First gift repeated!
 
 In the North Pole toy factory, each toy has a unique identification number.
 

@@ -1,4 +1,4 @@
-# Challenge 4
+# Challenge #4: 😵‍💫 Turn the parentheses around
 
 In Santa's workshop 🎅, some Christmas messages have been written in a peculiar way: **the letters inside the parentheses must be read in reverse**.
 

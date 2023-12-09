@@ -1,4 +1,4 @@
-# Challenge 5
+# Challenge #5: 🛷 Santa's CyberTruck
 
 Santa 🎅 is testing his new electric sleigh, the _CyberReindeer_, on a North Pole road. The road is represented by a string of characters, where:
 
